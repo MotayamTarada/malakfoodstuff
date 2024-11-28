@@ -128,6 +128,15 @@ h6 {
   border-top-color: var(--surface-color);
   animation: php-email-form-loading 1s linear infinite;
 }
+.button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  justify-content: center; /* Center align the buttons */
+  align-items: center; /* Vertically align the buttons */
+  border: 1px solid #f9c401;
+  border-radius: 15px;
+}
+
 
 @keyframes php-email-form-loading {
   0% {
